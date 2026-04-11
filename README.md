@@ -56,6 +56,10 @@ Bash:
 - Open Cypress:
 - npx cypress open <- Run the project ‼️
 
+- Install report plugin
+
+npm install --save-dev cypress-mochawesome-reporter
+
 ## 📊 Test cases covered
 - User login.
 - Invalid User login.
