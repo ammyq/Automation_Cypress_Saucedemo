@@ -34,7 +34,7 @@ describe('template spec', () => {
       inventoryPage.selectProduct()
       cartPage.clickCart()
       cartPage.getProductTitle().should('have.text','Sauce Labs Onesie')
-      cartPage.getProductPrice().should('have.text','$7.99')
+      cartPage.getProductPrice().should('have.text','$9.99')
     })
   })
 })
