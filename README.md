@@ -1,73 +1,61 @@
-# 🧪 Cypress Automation Project
+## 📌 Overview
+This project is an end-to-end automation testing framework built using Cypress to validate critical user journeys of an e-commerce platform (SauceDemo).
 
-UI test automation project using Cypress with JavaScript, this proyect included reports, screenshots when te test fail, and video.
-
----
-
-## 📌 Description
-
-This project automates end-to-end testing for a sample web application, validating workflows such as login, product purchase and UI validation.
+It simulates real-world QA practices by automating functional scenarios and ensuring application reliability.
 
 ---
 
-## 🛠️ Technologies used
+## 🎯 Objectives
+- Automate key business flows of an e-commerce application
+- Reduce manual testing effort
+- Improve test coverage for critical functionalities
 
+---
+
+## 🚀 Features
+- Login validation (positive & negative scenarios)
+- Product selection and cart management
+- End-to-end checkout process
+- Data-driven testing using fixtures
+
+---
+
+## 🧰 Tech Stack
 - Cypress
 - JavaScript
 - Node.js
-- npm
-- mochawesome-reporter
 
 ---
 
-## 📁 Estructura del proyecto
+## 🏗️ Framework Design
+- Modular test structure
+- Reusable commands
+- Fixtures for test data management
+- Separation between test logic and test data
 
-- cypress/
-- e2e/
-- fixtures/
-- pages
-- reports
-- screenshots
-- support/
-- videos
-- cypress.config.js
-- package.json
+---
 
-## ⚙️ Instalation
+## ▶️ How to Run
+1. Clone the repository  
+2. Install dependencies:  
+   `npm install`  
+3. Run tests:  
+   `npx cypress open`
 
-Clone the repository:
+---
 
-## bash https://github.com/tuusuario/Automation_Cypress_Saucedemo.git
+## 📊 Value of the Project
+This project demonstrates hands-on experience in:
+- Building automation frameworks from scratch
+- Designing maintainable and scalable test suites
+- Validating real-world e-commerce workflows
 
-## In MAC:
+---
 
-Bash:
-- mkdir proyecto-cypress
-- cd proyecto-cypress
-- npm init -y
-- npm install cypress --save-dev
-
-## In Windows
-
-- Initialise the project (if you don't have a `package.json` file):
-- npm init -y
-- Install Cypress:
-- npm install cypress --save-dev
-- Open Cypress:
-- npx cypress open <- Run the project ‼️
-
-- Install report plugin
-
-npm install --save-dev cypress-mochawesome-reporter
-
-## 📊 Test cases covered
-- User login.
-- Invalid User login.
-- Find product.
-- Compare the price shown on the screen with the expected price in the test.
-- Save a screenshot when the test fails.
-- Save a video when the test fails.
-- General report on all executions.
+## 🔮 Future Improvements
+- CI/CD integration (GitHub Actions)
+- Test reporting (Mochawesome / Allure)
+- Cross-browser testing
 
 
 ## 📸 Images of the project
